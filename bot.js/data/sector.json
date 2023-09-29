@@ -1,0 +1,622 @@
+[
+  {
+    "sector": "Actuary",
+    "coinsRange": [1000, 2000],
+    "message": "You calculated probabilities like a boss and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Aerospace Technician",
+    "coinsRange": [400, 800],
+    "message": "You fixed aircraft with precision and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Agricultural Engineer",
+    "coinsRange": [800, 1200],
+    "message": "You designed innovative farming systems and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Airline Mechanic",
+    "coinsRange": [500, 1000],
+    "message": "You maintained planes to ensure safe flights and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Algorithm Engineer",
+    "coinsRange": [700, 1300],
+    "message": "You created complex algorithms and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Animal Trainer",
+    "coinsRange": [300, 600],
+    "message": "You trained animals to perform amazing tricks and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "App Developer",
+    "coinsRange": [600, 1200],
+    "message": "You developed awesome apps and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Aquarist",
+    "coinsRange": [200, 400],
+    "message": "You cared for marine life in the aquarium and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Arborist",
+    "coinsRange": [400, 800],
+    "message": "You maintained and preserved trees like a tree whisperer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Architectural Drafter",
+    "coinsRange": [500, 1000],
+    "message": "You created detailed architectural plans and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Art Restorer",
+    "coinsRange": [400, 800],
+    "message": "You restored priceless artworks to their former glory and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Audio Engineer",
+    "coinsRange": [500, 1000],
+    "message": "You mixed and mastered music to perfection and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Automobile Salesperson",
+    "coinsRange": [300, 600],
+    "message": "You sold cars with charm and persuasion and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Baker/Pastry Chef",
+    "coinsRange": [300, 600],
+    "message": "You baked delicious pastries and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Behavioral Therapist",
+    "coinsRange": [600, 1200],
+    "message": "You helped people overcome behavioral challenges and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Bicycle Designer",
+    "coinsRange": [400, 800],
+    "message": "You designed sleek and innovative bicycles and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Bioinformatics Specialist",
+    "coinsRange": [800, 1500],
+    "message": "You analyzed biological data with computational tools and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Biomedical Engineer",
+    "coinsRange": [700, 1300],
+    "message": "You designed cutting-edge medical devices and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Blacksmith",
+    "coinsRange": [300, 600],
+    "message": "You crafted impressive metalwork with fire and hammer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Bodyguard",
+    "coinsRange": [500, 1000],
+    "message": "You protected clients with your impeccable security skills and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Brand Ambassador",
+    "coinsRange": [200, 400],
+    "message": "You represented brands with style and charisma and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Building Surveyor",
+    "coinsRange": [400, 800],
+    "message": "You assessed buildings for safety and compliance and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Bus Driver",
+    "coinsRange": [200, 400],
+    "message": "You drove passengers around the city safely and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Business Coach",
+    "coinsRange": [500, 1000],
+    "message": "You guided businesses towards success with your expertise and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Call Center Supervisor",
+    "coinsRange": [400, 800],
+    "message": "You managed and coached call center agents to excellence and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Cartographer",
+    "coinsRange": [500, 1000],
+    "message": "You created detailed maps with precision and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Certified Public Accountant (CPA)",
+    "coinsRange": [600, 1200],
+    "message": "You provided expert financial advice as a CPA and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Chemist",
+    "coinsRange": [400, 800],
+    "message": "You conducted experiments and made scientific discoveries as a chemist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Chief Technology Officer (CTO)",
+    "coinsRange": [1000, 2000],
+    "message": "You led the technological innovation as a CTO and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Civil Rights Activist",
+    "coinsRange": [600, 1200],
+    "message": "You fought for equality and social justice as a civil rights activist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Clinical Research Coordinator",
+    "coinsRange": [600, 1200],
+    "message": "You managed clinical trials and contributed to medical research as a coordinator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Commercial Pilot",
+    "coinsRange": [1000, 2000],
+    "message": "You flew commercial airplanes with skill and expertise as a pilot and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Computer Systems Analyst",
+    "coinsRange": [600, 1200],
+    "message": "You analyzed and improved computer systems as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Conservation Scientist",
+    "coinsRange": [800, 1500],
+    "message": "You preserved and protected natural resources as a conservation scientist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Costume Designer",
+    "coinsRange": [500, 1000],
+    "message": "You created stunning costumes for films and performances as a designer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Criminal Lawyer",
+    "coinsRange": [700, 1300],
+    "message": "You defended clients accused of criminal offenses as a lawyer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Cryptocurrency Analyst",
+    "coinsRange": [800, 1500],
+    "message": "You analyzed and predicted trends in cryptocurrencies as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Customer Success Specialist",
+    "coinsRange": [300, 600],
+    "message": "You ensured customer satisfaction and success as a specialist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Cybersecurity Consultant",
+    "coinsRange": [700, 1300],
+    "message": "You protected organizations from cyber threats as a consultant and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Dairy Farmer",
+    "coinsRange": [400, 800],
+    "message": "You cared for dairy cows and produced fresh milk as a farmer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Data Engineer",
+    "coinsRange": [800, 1500],
+    "message": "You built and optimized data systems as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Dental Assistant",
+    "coinsRange": [300, 600],
+    "message": "You assisted dentists in providing oral healthcare as an assistant and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "DevOps Engineer",
+    "coinsRange": [700, 1300],
+    "message": "You automated and optimized software development processes as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Digital Illustrator",
+    "coinsRange": [400, 800],
+    "message": "You created stunning digital artwork as an illustrator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Director of Photography",
+    "coinsRange": [600, 1200],
+    "message": "You captured breathtaking scenes as a director of photography and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Dog Groomer",
+    "coinsRange": [200, 400],
+    "message": "You groomed dogs to look their best as a dog groomer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Ecological Consultant",
+    "coinsRange": [600, 1200],
+    "message": "You provided expert advice on ecological matters as a consultant and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Electrician",
+    "coinsRange": [400, 800],
+    "message": "You installed and repaired electrical systems as an electrician and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Environmental Planner",
+    "coinsRange": [500, 1000],
+    "message": "You developed plans to create sustainable environments as a planner and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Executive Producer",
+    "coinsRange": [800, 1500],
+    "message": "You oversaw the production of films and shows as an executive producer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Fashion Stylist",
+    "coinsRange": [600, 1200],
+    "message": "You styled and curated fashionable looks as a fashion stylist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Film Editor",
+    "coinsRange": [500, 1000],
+    "message": "You edited and crafted compelling stories as a film editor and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Financial Analyst",
+    "coinsRange": [700, 1300],
+    "message": "You analyzed financial data and provided insights as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Flight Instructor",
+    "coinsRange": [600, 1200],
+    "message": "You trained aspiring pilots to take to the skies as an instructor and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Forensic Accountant",
+    "coinsRange": [800, 1500],
+    "message": "You investigated financial crimes as an accountant and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Game Artist",
+    "coinsRange": [500, 1000],
+    "message": "You created captivating visuals and artwork for games as an artist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Geneticist",
+    "coinsRange": [800, 1500],
+    "message": "You studied genes and heredity to unlock the mysteries of life as a geneticist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "GIS Analyst",
+    "coinsRange": [600, 1200],
+    "message": "You analyzed geographical data and created maps as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Grant Manager",
+    "coinsRange": [500, 1000],
+    "message": "You managed grants and funding opportunities as a manager and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Health Coach",
+    "coinsRange": [300, 600],
+    "message": "You coached individuals to lead healthier lifestyles as a health coach and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Historian",
+    "coinsRange": [600, 1200],
+    "message": "You researched and documented historical events as a historian and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Hotel Concierge",
+    "coinsRange": [400, 800],
+    "message": "You provided exceptional service and recommendations as a hotel concierge and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Human Resources Specialist",
+    "coinsRange": [500, 1000],
+    "message": "You managed human resources processes and supported employees as a specialist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Industrial Designer",
+    "coinsRange": [800, 1500],
+    "message": "You designed functional and aesthetic products as an industrial designer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Information Systems Manager",
+    "coinsRange": [700, 1300],
+    "message": "You oversaw IT systems and infrastructure as a manager and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Insurance Investigator",
+    "coinsRange": [600, 1200],
+    "message": "You investigated insurance claims and fraud as an investigator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Interior Decorator",
+    "coinsRange": [400, 800],
+    "message": "You transformed spaces into beautiful and functional interiors as a decorator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Investment Analyst",
+    "coinsRange": [700, 1300],
+    "message": "You analyzed investment opportunities and provided insights as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Journalist",
+    "coinsRange": [500, 1000],
+    "message": "You reported news and stories with integrity as a journalist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Landscape Designer",
+    "coinsRange": [600, 1200],
+    "message": "You created beautiful outdoor spaces and landscapes as a designer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Legal Translator",
+    "coinsRange": [400, 800],
+    "message": "You translated legal documents accurately as a translator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Lighting Technician",
+    "coinsRange": [500, 1000],
+    "message": "You set up and controlled lighting for performances and events as a technician and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Machine Learning Specialist",
+    "coinsRange": [800, 1500],
+    "message": "You developed machine learning models and algorithms as a specialist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Management Trainee",
+    "coinsRange": [500, 1000],
+    "message": "You underwent training to become a future leader in management and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Marine Biotechnologist",
+    "coinsRange": [800, 1500],
+    "message": "You applied biotechnology in marine environments as a biotechnologist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Market Researcher",
+    "coinsRange": [600, 1200],
+    "message": "You conducted market research and provided insights as a researcher and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Materials Engineer",
+    "coinsRange": [700, 1300],
+    "message": "You developed and tested new materials as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Medical Illustrator",
+    "coinsRange": [600, 1200],
+    "message": "You created detailed illustrations of medical subjects as an illustrator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Mobile App Designer",
+    "coinsRange": [500, 1000],
+    "message": "You designed user-friendly mobile apps as a designer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Multimedia Developer",
+    "coinsRange": [700, 1300],
+    "message": "You created engaging multimedia content as a developer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Network Administrator",
+    "coinsRange": [600, 1200],
+    "message": "You managed and maintained computer networks as an administrator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Nuclear Physicist",
+    "coinsRange": [800, 1500],
+    "message": "You researched the properties and applications of nuclear physics as a physicist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Online Marketing Specialist",
+    "coinsRange": [500, 1000],
+    "message": "You strategized and executed online marketing campaigns as a specialist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Operations Research Analyst",
+    "coinsRange": [700, 1300],
+    "message": "You optimized operations and processes using mathematical models as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Packaging Engineer",
+    "coinsRange": [600, 1200],
+    "message": "You designed and developed packaging solutions as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Park Manager",
+    "coinsRange": [400, 800],
+    "message": "You managed and maintained parks and recreational areas as a manager and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Patent Examiner",
+    "coinsRange": [500, 1000],
+    "message": "You examined patent applications and granted patents as an examiner and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Personal Chef",
+    "coinsRange": [400, 800],
+    "message": "You cooked delicious meals for clients as a personal chef and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Pharmaceutical Scientist",
+    "coinsRange": [700, 1300],
+    "message": "You conducted research and developed drugs as a scientist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Photo Stylist",
+    "coinsRange": [500, 1000],
+    "message": "You styled products and scenes for captivating photos as a stylist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Plant Scientist",
+    "coinsRange": [600, 1200],
+    "message": "You studied plants and their characteristics as a scientist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Political Consultant",
+    "coinsRange": [800, 1500],
+    "message": "You provided strategic advice to political candidates as a consultant and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Product Marketing Manager",
+    "coinsRange": [700, 1300],
+    "message": "You developed and executed marketing strategies for products as a manager and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Production Assistant",
+    "coinsRange": [500, 1000],
+    "message": "You provided support and assistance in film and TV productions as an assistant and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Project Engineer",
+    "coinsRange": [800, 1500],
+    "message": "You managed and executed engineering projects as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Psychiatric Technician",
+    "coinsRange": [600, 1200],
+    "message": "You assisted in the treatment of patients with mental illnesses as a technician and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Public Defender",
+    "coinsRange": [500, 1000],
+    "message": "You provided legal defense to individuals who couldn't afford a lawyer as a public defender and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Quality Control Analyst",
+    "coinsRange": [700, 1300],
+    "message": "You ensured the quality and consistency of products as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Radio Host",
+    "coinsRange": [600, 1200],
+    "message": "You entertained and informed listeners as a radio host and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Real Estate Appraiser",
+    "coinsRange": [800, 1500],
+    "message": "You assessed the value of properties as an appraiser and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Rehabilitation Engineer",
+    "coinsRange": [700, 1300],
+    "message": "You designed assistive devices and technologies for people with disabilities as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Robotics Programmer",
+    "coinsRange": [500, 1000],
+    "message": "You programmed robots to perform complex tasks as a programmer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Sales Engineer",
+    "coinsRange": [800, 1500],
+    "message": "You combined technical knowledge with sales skills to promote and sell products as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Science Illustrator",
+    "coinsRange": [600, 1200],
+    "message": "You created detailed and accurate illustrations of scientific subjects as an illustrator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Search Engine Marketing Specialist",
+    "coinsRange": [500, 1000],
+    "message": "You optimized online ads and campaigns for search engines as a specialist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Set Carpenter",
+    "coinsRange": [400, 800],
+    "message": "You built and set up structures and sets for film and stage productions as a carpenter and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Sign Language Interpreter",
+    "coinsRange": [500, 1000],
+    "message": "You facilitated communication between deaf and hearing individuals as an interpreter and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Social Media Coordinator",
+    "coinsRange": [600, 1200],
+    "message": "You managed and coordinated social media accounts and campaigns as a coordinator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Software Quality Assurance Tester",
+    "coinsRange": [700, 1300],
+    "message": "You ensured the quality and functionality of software through rigorous testing as a tester and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Solar Energy Installer",
+    "coinsRange": [600, 1200],
+    "message": "You installed solar energy systems and promoted renewable energy as an installer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Sound Mixer",
+    "coinsRange": [500, 1000],
+    "message": "You mixed and balanced sound elements for films, music, and events as a mixer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Special Effects Makeup Artist",
+    "coinsRange": [800, 1500],
+    "message": "You created stunning and realistic special effects makeup as an artist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Sports Analyst",
+    "coinsRange": [700, 1300],
+    "message": "You provided in-depth analysis and insights on sports as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Stationary Engineer",
+    "coinsRange": [600, 1200],
+    "message": "You operated and maintained stationary equipment and systems as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Structural Steel Worker",
+    "coinsRange": [400, 800],
+    "message": "You fabricated and erected steel structures as a worker and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Taxidermist",
+    "coinsRange": [500, 1000],
+    "message": "You preserved and mounted animal specimens with skill and artistry as a taxidermist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Technical Illustrator",
+    "coinsRange": [600, 1200],
+    "message": "You created detailed technical illustrations and diagrams as an illustrator and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Traffic Engineer",
+    "coinsRange": [700, 1300],
+    "message": "You planned and managed traffic flow and transportation systems as an engineer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "User Interface Designer",
+    "coinsRange": [800, 1500],
+    "message": "You designed intuitive and visually appealing user interfaces as a designer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Video Game Designer",
+    "coinsRange": [700, 1300],
+    "message": "You designed and developed engaging video games as a designer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Visual Effects Artist",
+    "coinsRange": [500, 1000],
+    "message": "You created stunning visual effects for films, TV, and video games as an artist and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Web Analyst",
+    "coinsRange": [600, 1200],
+    "message": "You analyzed web data and user behavior to improve online experiences as an analyst and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Wildlife Photographer",
+    "coinsRange": [400, 800],
+    "message": "You captured breathtaking photos of wildlife and nature as a photographer and earned {coinsEarned} coins!"
+  },
+  {
+    "sector": "Yoga Instructor",
+    "coinsRange": [500, 1000],
+    "message": "You guided and inspired students in their yoga practice as an instructor and earned {coinsEarned} coins!"
+  }
+]

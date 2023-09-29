@@ -1,0 +1,5233 @@
+[
+  {
+    "server_name": "My Training Server",
+    "description": "A hub for learning and sharing knowledge.",
+    "tags": ["education", "learning", "knowledge"],
+    "content": [
+      {
+        "name": "welcome",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "introductions",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-discussion",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "study-group",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "questions",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "learning-resources",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "coding-help",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "book-club",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "career-advice",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "language-learning",
+        "type": "text",
+        "position": 10,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "science",
+        "type": "text",
+        "position": 11,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "music-lessons",
+        "type": "text",
+        "position": 12,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "art-tutorials",
+        "type": "text",
+        "position": 13,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "homework-help",
+        "type": "text",
+        "position": 14,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "bot-commands",
+        "type": "text",
+        "position": 15,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "staff-chat",
+        "type": "text",
+        "position": 16,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "Moderator",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_messages": true
+        }
+      },
+      {
+        "name": "Teacher",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "Student",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Learner",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Researcher",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Scholar",
+        "position": 6,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Coder",
+        "position": 7,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Writer",
+        "position": 8,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Artist",
+        "position": 9,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Musician",
+        "position": 10,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Gamer",
+        "position": 11,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Scientist",
+        "position": 12,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Helper",
+        "position": 13,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Language_Enthusiast",
+        "position": 14,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Art & Creativity Hub",
+    "description": "A vibrant community for artists and creators.",
+    "tags": ["art", "creativity", "design", "crafts"],
+    "content": [
+      {
+        "name": "welcome",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "inspiration",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "art-showcase",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "tutorial-corner",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "sketchbook",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "digital-art",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "traditional-art",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "crafting",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "photography",
+        "type": "text",
+        "position": 10,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "collaborations",
+        "type": "text",
+        "position": 11,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "art-discussion",
+        "type": "text",
+        "position": 12,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "feedback",
+        "type": "text",
+        "position": 13,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "challenges",
+        "type": "text",
+        "position": 14,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "Moderator",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_messages": true
+        }
+      },
+      {
+        "name": "Artist",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "Designer",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Craftsperson",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Photographer",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Enthusiast",
+        "position": 6,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Beginner",
+        "position": 7,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Experienced",
+        "position": 8,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Critique",
+        "position": 9,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Fan",
+        "position": 10,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Curator",
+        "position": 11,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Inspired",
+        "position": 12,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Supporter",
+        "position": 13,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Challenge_Enthusiast",
+        "position": 14,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Music Lovers",
+    "description": "A vibrant community for music enthusiasts.",
+    "tags": ["music", "entertainment", "art"],
+    "content": [
+      {
+        "name": "welcome",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "music-recommendations",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "instrument-talk",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "song-discussion",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "live-performances",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "genre-specific",
+        "type": "category",
+        "position": 7,
+        "channels": [
+          {
+            "name": "rock-music",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "electronic-music",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "music-production",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "songwriting",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "music-news",
+        "type": "text",
+        "position": 10,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "cover-collaborations",
+        "type": "text",
+        "position": 11,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "instrument-showcase",
+        "type": "text",
+        "position": 12,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "music-memes",
+        "type": "text",
+        "position": 13,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "bot-commands",
+        "type": "text",
+        "position": 14,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "Moderator",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_messages": true
+        }
+      },
+      {
+        "name": "DJ",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "Musician",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Listener",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Songwriter",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Producer",
+        "position": 6,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Fan",
+        "position": 7,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Rock_Enthusiast",
+        "position": 8,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Electronic_Fan",
+        "position": 9,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Guitarist",
+        "position": 10,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Pianist",
+        "position": 11,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Vocalist",
+        "position": 12,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Music_Producer",
+        "position": 13,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Gaming Community",
+    "description": "A gathering place for gamers of all types.",
+    "tags": ["gaming", "community", "entertainment"],
+    "content": [
+      {
+        "name": "welcome",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "game-discussion",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "guilds-and-clans",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "strategy-corner",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "game-screenshots",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "events-and-tournaments",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "game-suggestions",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "stream-promotion",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "voice-chats",
+        "type": "category",
+        "position": 10,
+        "channels": [
+          {
+            "name": "general-voice",
+            "type": "voice",
+            "position": 0,
+            "permissions": {
+              "connect": true,
+              "speak": true
+            }
+          },
+          {
+            "name": "squad-voice",
+            "type": "voice",
+            "position": 1,
+            "permissions": {
+              "connect": true,
+              "speak": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "gaming-news",
+        "type": "text",
+        "position": 11,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "looking-for-group",
+        "type": "text",
+        "position": 12,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "memes",
+        "type": "text",
+        "position": 13,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "bot-commands",
+        "type": "text",
+        "position": 14,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "Moderator",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_messages": true
+        }
+      },
+      {
+        "name": "Streamer",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "Gamer",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "LFG_Player",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Strategy_Expert",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Movie Buffs",
+    "description": "A hub for all things related to movies and cinema.",
+    "tags": ["movies", "cinema", "entertainment"],
+    "content": [
+      {
+        "name": "welcome",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "movie-recommendations",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "new-releases",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "classics-corner",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "movie-discussion",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "trailer-reactions",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "movie-theories",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "fan-art",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "watch-parties",
+        "type": "text",
+        "position": 10,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "spoiler-discussion",
+        "type": "text",
+        "position": 11,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "film-school",
+        "type": "text",
+        "position": 12,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "movie-news",
+        "type": "text",
+        "position": 13,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "movie-memes",
+        "type": "text",
+        "position": 14,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "Moderator",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_messages": true
+        }
+      },
+      {
+        "name": "Movie_Critic",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "Film_Enthusiast",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Director",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Actor",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Screenwriter",
+        "position": 6,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Cinematographer",
+        "position": 7,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Movie_Fanatic",
+        "position": 8,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Classic_Film_Lover",
+        "position": 9,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+
+  {
+    "server_name": "Bookworms Haven",
+    "description": "A sanctuary for book lovers and avid readers.",
+    "tags": ["books", "reading", "literature"],
+    "content": [
+      {
+        "name": "welcome",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "book-recommendations",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "reading-challenges",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "author-spotlight",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "book-discussion",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "reading-room",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "book-swaps",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "author-qa",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "book-reviews",
+        "type": "text",
+        "position": 10,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "book-spoilers",
+        "type": "text",
+        "position": 11,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "writing-tips",
+        "type": "text",
+        "position": 12,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "book-news",
+        "type": "text",
+        "position": 13,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "book-memes",
+        "type": "text",
+        "position": 14,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "roles": [
+      {
+        "name": "Admin",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "Moderator",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_messages": true
+        }
+      },
+      {
+        "name": "Book_Critic",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true,
+          "attach_files": true
+        }
+      },
+      {
+        "name": "Bibliophile",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Novelist",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Reader",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Writer",
+        "position": 6,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Book_Enthusiast",
+        "position": 7,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Genre_Expert",
+        "position": 8,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Level 10",
+        "position": 9,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Level 20",
+        "position": 10,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Level 30",
+        "position": 11,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Level 40",
+        "position": 12,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Level 50",
+        "position": 13,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Level 60",
+        "position": 14,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "BlockCrafters Realm",
+    "description": "Embark on a journey in the world of blocks and creativity.",
+    "tags": ["minecraft", "gaming", "building"],
+    "content": [
+      {
+        "name": "welcome-portal",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements-square",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-hub",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "build-showcase",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "redstone-creations",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "survival-adventures",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "resource-exchange",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "show-off-your-skin",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "building-tips",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "pixel-art-gallery",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "adventurer-tales",
+        "type": "text",
+        "position": 10,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "mob-farm-designs",
+        "type": "text",
+        "position": 11,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "community-projects",
+        "type": "text",
+        "position": 12,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "realm-events",
+        "type": "text",
+        "position": 13,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "server-suggestions",
+        "type": "text",
+        "position": 14,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "staff-hallway",
+        "type": "category",
+        "position": 15,
+        "channels": [
+          {
+            "name": "staff-lounge",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "moderation-room",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Overseer",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "MasterBuilder",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_channels": true
+        }
+      },
+      {
+        "name": "Craftsman",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Miner",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Explorer",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Adventurer",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Artisan",
+        "position": 6,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Enchanter",
+        "position": 7,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "RedstoneGenius",
+        "position": 8,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "PixelArtist",
+        "position": 9,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Hypixel Universe",
+    "description": "Dive into the exciting universe of Hypixel with fellow adventurers!",
+    "tags": ["minecraft", "hypixel", "gaming"],
+    "content": [
+      {
+        "name": "welcome-hub",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": false,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "rules-and-info",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": false,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": false,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "server-suggestions",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "giveaways",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": false
+        }
+      },
+      {
+        "name": "support-and-help",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "hypixel-news",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": false,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "game-discussion",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "General Channels",
+        "channels": [
+          {
+            "name": "general-chat",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "introductions",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "off-topic",
+            "type": "text",
+            "position": 2,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Game Channels",
+        "channels": [
+          {
+            "name": "skyblock-strats",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "bedwars-tactics",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "duels-arena",
+            "type": "text",
+            "position": 2,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true
+            }
+          },
+          {
+            "name": "minigame-mania",
+            "type": "text",
+            "position": 3,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Creative Corner",
+        "channels": [
+          {
+            "name": "pixel-paintings",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true
+            }
+          },
+          {
+            "name": "fan-creations",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "embed_links": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Founder",
+        "position": 0,
+        "permissions": {
+          "administrator": true
+        }
+      },
+      {
+        "name": "GameMaster",
+        "position": 1,
+        "permissions": {
+          "kick_members": true,
+          "ban_members": true,
+          "manage_channels": true
+        }
+      },
+      {
+        "name": "Adventurer",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Explorer",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Builder",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "RedstoneEngineer",
+        "position": 5,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Architect",
+        "position": 6,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "MinigameMaster",
+        "position": 7,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "HypixelHero",
+        "position": 8,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "PixelArtist",
+        "position": 9,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "FitFam Community",
+    "description": "Join the fitness community to share your goals, tips, and progress!",
+    "tags": ["fitness", "health", "wellness"],
+    "content": [
+      {
+        "name": "welcome-lounge",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "fitness-tips",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "nutrition-advice",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "workout-plans",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "progress-updates",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "motivation-corner",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "challenge-arena",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "gear-reviews",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Fitness Discussion",
+        "channels": [
+          {
+            "name": "fitness-tips",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "nutrition-advice",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "workout-plans",
+            "type": "text",
+            "position": 2,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "progress-updates",
+            "type": "text",
+            "position": 3,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Motivation Zone",
+        "channels": [
+          {
+            "name": "motivation-corner",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "success-stories",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Challenges and Reviews",
+        "channels": [
+          {
+            "name": "challenge-arena",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "gear-reviews",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Fitness Guru",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Nutrition Enthusiast",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Workout Wizard",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Progress Champion",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Motivation Maestro",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Tech Enthusiasts Hub",
+    "description": "Join the tech community to discuss the latest gadgets, software, and innovations!",
+    "tags": ["technology", "gadgets", "innovation"],
+    "content": [
+      {
+        "name": "welcome-hall",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "tech-news",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "gadget-reviews",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "software-talk",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "coding-corner",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "tech-help",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "future-tech",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "career-advice",
+        "type": "text",
+        "position": 9,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Tech Discussions",
+        "channels": [
+          {
+            "name": "tech-news",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "gadget-reviews",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "software-talk",
+            "type": "text",
+            "position": 2,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "coding-corner",
+            "type": "text",
+            "position": 3,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tech Help and Future",
+        "channels": [
+          {
+            "name": "tech-help",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "future-tech",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Career and Networking",
+        "channels": [
+          {
+            "name": "career-advice",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "job-opportunities",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "networking-events",
+            "type": "text",
+            "position": 2,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Tech Guru",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Software Developer",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Gadget Enthusiast",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Coding Ninja",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Future Tech Explorer",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Wanderlust Adventures",
+    "description": "Join fellow travelers to share your journeys, tips, and experiences around the world!",
+    "tags": ["travel", "adventure", "exploration"],
+    "content": [
+      {
+        "name": "welcome-hall",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "travel-tales",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "destination-insights",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "adventure-planning",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "photography-share",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "local-cuisine",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "solo-travelers",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Travel Discussions",
+        "channels": [
+          {
+            "name": "travel-tales",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "destination-insights",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Adventure Planning",
+        "channels": [
+          {
+            "name": "adventure-planning",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "gear-recommendations",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cultural Exploration",
+        "channels": [
+          {
+            "name": "local-cuisine",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "language-learning",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Adventure Seeker",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "World Explorer",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Local Foodie",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Photography Enthusiast",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Solo Traveler",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Scientific Explorers",
+    "description": "Join the scientific community to explore the wonders of the natural world and beyond!",
+    "tags": ["science", "discovery", "research"],
+    "content": [
+      {
+        "name": "welcome-lab",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "research-highlights",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "field-specific",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "experiment-discussions",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "science-news",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "science-ethics",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "career-advice",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Research Discussions",
+        "channels": [
+          {
+            "name": "research-highlights",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "field-specific",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Experimentation Zone",
+        "channels": [
+          {
+            "name": "experiment-discussions",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "lab-protocols",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Science and Society",
+        "channels": [
+          {
+            "name": "science-news",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "science-ethics",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Scientific Pioneer",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Field Specialist",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Lab Enthusiast",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Ethics Advocate",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Science Communicator",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Shutterbug Society",
+    "description": "Join fellow photography enthusiasts to share your captures, techniques, and creative journey!",
+    "tags": ["photography", "creativity", "art"],
+    "content": [
+      {
+        "name": "welcome-gallery",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "photo-sharing",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "technique-talk",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "creative-challenges",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "gear-talk",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "feedback-corner",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "inspiration-zone",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Photo Sharing",
+        "channels": [
+          {
+            "name": "photo-sharing",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Technique Exchange",
+        "channels": [
+          {
+            "name": "technique-talk",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "editing-tips",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Challenges and Creativity",
+        "channels": [
+          {
+            "name": "creative-challenges",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "theme-suggestions",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Photo Enthusiast",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Technique Guru",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Creative Challenger",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Gear Enthusiast",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Feedback Seeker",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Polyglot Haven",
+    "description": "Join language enthusiasts from around the world to share your linguistic journey and exchange cultural insights!",
+    "tags": ["language", "linguistics", "culture"],
+    "content": [
+      {
+        "name": "welcome-lobby",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "language-showcase",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "learning-resources",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "cultural-exchange",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "language-games",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "language-tips",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "language-trips",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Language Showcase",
+        "channels": [
+          {
+            "name": "language-showcase",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Learning Resources",
+        "channels": [
+          {
+            "name": "learning-resources",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "language-books",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cultural Exchange",
+        "channels": [
+          {
+            "name": "cultural-exchange",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "traditions-and-customs",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Polyglot Enthusiast",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Language Learner",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Culture Explorer",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Language Mentor",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Language Enthusiast",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "CodeCrafters",
+    "description": "Join fellow coders to discuss programming, share your projects, and collaborate on coding challenges!",
+    "tags": ["coding", "programming", "software development"],
+    "content": [
+      {
+        "name": "welcome-hub",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "project-showcase",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "programming-help",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "coding-challenges",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "language-discussions",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "tech-talk",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "job-opportunities",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Project Showcase",
+        "channels": [
+          {
+            "name": "project-showcase",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Coding Help",
+        "channels": [
+          {
+            "name": "programming-help",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "debugging-assistance",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Challenge Zone",
+        "channels": [
+          {
+            "name": "coding-challenges",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "weekly-challenges",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "CodeCrafting Guru",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Programming Prodigy",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Bug Hunter",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Challenge Enthusiast",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Tech Enthusiast",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Anime Oasis",
+    "description": "Join fellow anime and manga fans to discuss your favorite series, discover new ones, and share your fan creations!",
+    "tags": ["anime", "manga", "otaku"],
+    "content": [
+      {
+        "name": "welcome-hall",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "anime-recommendations",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "manga-discussions",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "fan-art",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "anime-spoilers",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "cosplay-corner",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "anime-games",
+        "type": "text",
+        "position": 8,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Recommendation Center",
+        "channels": [
+          {
+            "name": "anime-recommendations",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "manga-recommendations",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Fan Creations",
+        "channels": [
+          {
+            "name": "fan-art",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "fan-fiction",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Series Discussions",
+        "channels": [
+          {
+            "name": "anime-discussions",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "manga-discussions",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Anime Aficionado",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Manga Maniac",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Creative Fan",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Spoiler Dodger",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Cosplay Enthusiast",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Pet Pals",
+    "description": "Join fellow pet enthusiasts to discuss your beloved pets, learn about animal care, and share heartwarming pet stories!",
+    "tags": ["pets", "animals", "pet care"],
+    "content": [
+      {
+        "name": "welcome-paws",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "pet-gallery",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "pet-care-tips",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "adoption-center",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "training-corner",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "lost-and-found",
+        "type": "text",
+        "position": 7,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Pet Gallery",
+        "channels": [
+          {
+            "name": "pet-gallery",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Pet Care",
+        "channels": [
+          {
+            "name": "pet-care-tips",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "health-and-nutrition",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Pet Adoption",
+        "channels": [
+          {
+            "name": "adoption-center",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "adoption-stories",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Pet Lover",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Animal Caretaker",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Adoption Advocate",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Training Enthusiast",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Lost and Found Hero",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Cinephile Haven",
+    "description": "Join fellow movie buffs to discuss your favorite films, discover new ones, and enjoy virtual movie nights together!",
+    "tags": ["movies", "film", "cinema"],
+    "content": [
+      {
+        "name": "welcome-cinema",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "movie-recommendations",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "movie-discussions",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "virtual-movie-night",
+        "type": "voice",
+        "position": 5,
+        "permissions": {
+          "connect": true,
+          "speak": true,
+          "use_voice_activation": true
+        }
+      },
+      {
+        "name": "spoiler-friendly-zone",
+        "type": "text",
+        "position": 6,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Movie Recommendations",
+        "channels": [
+          {
+            "name": "movie-recommendations",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Movie Discussions",
+        "channels": [
+          {
+            "name": "movie-discussions",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "favorite-scenes",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Cinephile",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Movie Buff",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Virtual Moviegoer",
+        "position": 2,
+        "permissions": {
+          "connect": true,
+          "speak": true,
+          "use_voice_activation": true
+        }
+      },
+      {
+        "name": "Spoiler Savvy",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Movie Night Host",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Fortnite Central",
+    "description": "Connect with fellow Fortnite players, discuss strategies, and build your victory royales together!",
+    "tags": ["Fortnite", "gaming", "battle royale"],
+    "content": [
+      {
+        "name": "welcome-lobby",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "game-discussion",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "squad-recruitment",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "strategy-talk",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Gameplay",
+        "channels": [
+          {
+            "name": "game-discussion",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "showcase-your-victories",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Teamplay",
+        "channels": [
+          {
+            "name": "squad-recruitment",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "looking-for-squad",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Battle Royale Pro",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Squad Leader",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Strategist",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Victory Royale Enthusiast",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Fortnite Fanatic",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Call of Duty HQ",
+    "description": "Connect with fellow Call of Duty players, discuss strategies, and dominate the battlefield together!",
+    "tags": ["Call of Duty", "gaming", "first-person shooter"],
+    "content": [
+      {
+        "name": "welcome-barracks",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "game-discussion",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "squad-recruitment",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "strategy-talk",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Gameplay",
+        "channels": [
+          {
+            "name": "game-discussion",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "share-your-clips",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Squad Play",
+        "channels": [
+          {
+            "name": "squad-recruitment",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "looking-for-squad",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Warrior",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Squad Captain",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Strategist",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Killstreak Master",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "COD Enthusiast",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Valorant Alliance",
+    "description": "Join forces with fellow Valorant players, discuss tactics, and rise through the ranks together!",
+    "tags": ["Valorant", "gaming", "tactical shooter"],
+    "content": [
+      {
+        "name": "welcome-lounge",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "game-discussion",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "squad-recruitment",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "strategy-talk",
+        "type": "text",
+        "position": 5,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Gameplay",
+        "channels": [
+          {
+            "name": "game-discussion",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "share-your-plays",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Teamplay",
+        "channels": [
+          {
+            "name": "squad-recruitment",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "looking-for-team",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "voice_channels": [
+      {
+        "name": "Team Voice 1",
+        "position": 0,
+        "permissions": {
+          "connect": true,
+          "speak": true,
+          "use_voice_activation": true
+        }
+      },
+      {
+        "name": "Team Voice 2",
+        "position": 1,
+        "permissions": {
+          "connect": true,
+          "speak": true,
+          "use_voice_activation": true
+        }
+      },
+      {
+        "name": "Team Voice 3",
+        "position": 2,
+        "permissions": {
+          "connect": true,
+          "speak": true,
+          "use_voice_activation": true
+        }
+      }
+    ],
+    "roles": [
+      {
+        "name": "Strategic Commander",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Tactical Warrior",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Team Player",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Aim Guru",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Valorant Enthusiast",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Zelda Realm",
+    "description": "Embark on an adventure with fellow fans of The Legend of Zelda series, share theories, and celebrate the legacy of Hyrule!",
+    "tags": ["Zelda", "gaming", "fantasy"],
+    "content": [
+      {
+        "name": "welcome-hyrule",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "lore-discussion",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "fan-art-showcase",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true,
+          "embed_links": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Game Discussion",
+        "channels": [
+          {
+            "name": "lore-discussion",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "fan-theories",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Creative Corner",
+        "channels": [
+          {
+            "name": "fan-art-showcase",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true,
+              "embed_links": true
+            }
+          },
+          {
+            "name": "fan-fiction",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Hero of Time",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Sage of Wisdom",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Champion of Courage",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Hylian Historian",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Zelda Enthusiast",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  },
+  {
+    "server_name": "Teyvat Adventures",
+    "description": "Embark on epic quests with fellow Genshin Impact players, share your character strategies, and explore the wonders of Teyvat!",
+    "tags": ["Genshin Impact", "gaming", "fantasy"],
+    "content": [
+      {
+        "name": "welcome-teyvat",
+        "type": "text",
+        "position": 0,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "announcements",
+        "type": "text",
+        "position": 1,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "mention_everyone": true
+        }
+      },
+      {
+        "name": "general-chat",
+        "type": "text",
+        "position": 2,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "character-strategies",
+        "type": "text",
+        "position": 3,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      },
+      {
+        "name": "exploration-tips",
+        "type": "text",
+        "position": 4,
+        "permissions": {
+          "view_channel": true,
+          "send_messages": true,
+          "read_message_history": true
+        }
+      }
+    ],
+    "categories": [
+      {
+        "name": "Game Discussion",
+        "channels": [
+          {
+            "name": "character-strategies",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "team-compositions",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      },
+      {
+        "name": "Exploration",
+        "channels": [
+          {
+            "name": "exploration-tips",
+            "type": "text",
+            "position": 0,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          },
+          {
+            "name": "hidden-locations",
+            "type": "text",
+            "position": 1,
+            "permissions": {
+              "view_channel": true,
+              "send_messages": true,
+              "read_message_history": true
+            }
+          }
+        ]
+      }
+    ],
+    "roles": [
+      {
+        "name": "Adventurer",
+        "position": 0,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true,
+          "embed_links": true
+        }
+      },
+      {
+        "name": "Elemental Master",
+        "position": 1,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Teyvat Explorer",
+        "position": 2,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Gacha Enthusiast",
+        "position": 3,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      },
+      {
+        "name": "Genshin Fanatic",
+        "position": 4,
+        "permissions": {
+          "read_messages": true,
+          "send_messages": true
+        }
+      }
+    ]
+  }
+]
